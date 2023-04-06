@@ -1,0 +1,42 @@
+.bg-container
+{
+    background-color: black;
+}
+.switch-board
+{
+    background-color: cadetblue;
+    width:294px;
+    height:160px;
+    border-radius:20px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:13px;
+    padding-right:13px;
+}
+.box
+{
+    position: relative;
+    left:40%;
+}
+.switch-off
+{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size:24px;
+    border-radius:10px;
+    width:60px;
+    margin-right:30px;
+}
+.switch-on
+{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size:24px;
+    border-radius:10px;
+    width:60px;
+}
+.switch-status
+{
+    font-family:"Roboto";
+    margin-top: 5px;
+}

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="cat.css">
+    </head>
+    <body>
+        <div class="bg-container text-center" >
+           <div> 
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"  height="200px" width="150px"  class="bulb-img" id="bulbimg">
+           </div> 
+               <div>
+                  <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png" width="300px" height="400px" class="cat-img" id="catimg">
+               </div><br>
+           <div class="box">
+              <div class="switch-board">
+                  <h1 class="switch-status" id="switchstatus">Switched On</h1><br>
+                  <button class="switch-off" id="offswitch" onclick="switchoff()">Off</button>
+                  <button class="switch-on" id="onswitch" onclick="switchon()">On</button>
+              </div>
+              <br><br>
+           </div>
+
+        </div>
+        <script src="cat.js"></script>
+    </body>
+</html>
